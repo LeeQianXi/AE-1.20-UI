@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "appmek:item/creative_chemical_cell"
+  }
+}

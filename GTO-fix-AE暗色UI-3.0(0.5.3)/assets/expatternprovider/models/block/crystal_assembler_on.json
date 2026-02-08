@@ -1,0 +1,6 @@
+{
+	"parent": "expatternprovider:block/crystal_assembler_off",
+	"textures": {
+		"state": "expatternprovider:block/crystal_assembler/on"
+	}
+}

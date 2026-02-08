@@ -1,0 +1,125 @@
+{
+	"credit": "Made with Blockbench, based on the Container model from Elemental Craft.",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 32],
+	"textures": {
+		"base": "appbot:block/fluix_mana_pool",
+		"particle": "botania:block/mana_pool_top",
+		"inside": "botania:block/mana_pool_inside",
+		"top": "botania:block/mana_pool_top",
+		"side": "botania:block/mana_pool_side"
+	},
+	"elements": [
+		{
+			"from": [0, -0.001, 0],
+			"to": [16, 0.999, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 0.5], "texture": "#base"},
+				"east": {"uv": [7.5, 0, 8, 8], "rotation": 90, "texture": "#base"},
+				"south": {"uv": [0, 7.5, 8, 8], "texture": "#base"},
+				"west": {"uv": [0, 0, 0.5, 8], "rotation": 90, "texture": "#base"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#base"},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#base"}
+			}
+		},
+		{
+			"from": [5, 5, 12],
+			"to": [11, 11, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 3, 11], "texture": "#base"},
+				"east": {"uv": [5, 8, 7, 11], "texture": "#base"},
+				"south": {"uv": [0, 8, 3, 11], "texture": "#base"},
+				"west": {"uv": [3, 8, 5, 11], "texture": "#base"},
+				"up": {"uv": [0, 11, 3, 13], "texture": "#base"},
+				"down": {"uv": [0, 13, 3, 15], "texture": "#base"}
+			}
+		},
+		{
+			"from": [6, 1, 13.99],
+			"to": [10, 5, 16],
+			"faces": {
+				"north": {"uv": [12, 0, 14, 2], "texture": "#base"},
+				"east": {"uv": [11, 0, 12, 2], "texture": "#base"},
+				"south": {"uv": [8, 0, 10, 2], "texture": "#base"},
+				"west": {"uv": [10, 0, 11, 2], "texture": "#base"},
+				"up": {"uv": [0, 0, 4, 2], "texture": "#base", "cullface": "up"},
+				"down": {"uv": [14, 15, 16, 16], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"name": "base",
+			"from": [0, 1, 0],
+			"to": [16, 2, 15.99],
+			"faces": {
+				"north": {"uv": [0, 15, 16, 15.5], "texture": "#side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0.005, 15, 16, 15.5], "texture": "#side", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 15, 16, 15.5], "texture": "#side", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 15, 15.995, 15.5], "texture": "#side", "cullface": "west", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down", "tintindex": 0},
+				"down": {"uv": [0, 8.005, 8, 16], "texture": "#missing", "cullface": "down", "tintindex": 0}
+			}
+		},
+		{
+			"name": "south",
+			"from": [0, 2, 14],
+			"to": [16, 8, 15.99],
+			"faces": {
+				"north": {"uv": [2, 8, 14, 14], "texture": "#inside", "tintindex": 0},
+				"east": {"uv": [0, 8, 1.99, 14], "texture": "#side", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 8, 16, 14], "texture": "#side", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [14.005, 8, 15.995, 14], "texture": "#side", "cullface": "west", "tintindex": 0},
+				"up": {"uv": [0, 2, 16, 0], "texture": "#top", "tintindex": 0}
+			}
+		},
+		{
+			"name": "north",
+			"from": [0, 2, 0],
+			"to": [16, 8, 2],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 14], "texture": "#side", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [14, 8, 16, 14], "texture": "#side", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [2, 8, 14, 14], "texture": "#inside", "tintindex": 0},
+				"west": {"uv": [0, 8, 2, 14], "texture": "#side", "cullface": "west", "tintindex": 0},
+				"up": {"uv": [0, 16, 16, 14], "texture": "#top", "tintindex": 0}
+			}
+		},
+		{
+			"name": "west",
+			"from": [0, 2, 2],
+			"to": [2, 8, 14],
+			"faces": {
+				"east": {"uv": [2, 8, 14, 14], "texture": "#inside", "tintindex": 0},
+				"west": {"uv": [2, 8, 14, 14], "texture": "#side", "cullface": "west", "tintindex": 0},
+				"up": {"uv": [16, 2, 14, 14], "texture": "#top", "tintindex": 0}
+			}
+		},
+		{
+			"name": "east",
+			"from": [14, 2, 2],
+			"to": [16, 8, 14],
+			"faces": {
+				"east": {"uv": [2, 8, 14, 14], "texture": "#side", "cullface": "east", "tintindex": 0},
+				"west": {"uv": [2, 8, 14, 14], "texture": "#inside", "tintindex": 0},
+				"up": {"uv": [2, 2, 0, 14], "texture": "#top", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		2,
+		{
+			"name": "pillars",
+			"origin": [9, 10, 9],
+			"color": 0,
+			"children": []
+		},
+		3,
+		4,
+		5,
+		6,
+		7
+	]
+}

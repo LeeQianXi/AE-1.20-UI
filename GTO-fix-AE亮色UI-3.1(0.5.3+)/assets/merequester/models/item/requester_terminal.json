@@ -1,0 +1,9 @@
+{
+  "parent": "ae2:item/display_base",
+  "textures": {
+    "front": "merequester:part/requester_terminal",
+    "front_bright": "merequester:part/requester_terminal_bright",
+    "front_medium": "merequester:part/requester_terminal_medium",
+    "front_dark": "merequester:part/requester_terminal_dark"
+  }
+}

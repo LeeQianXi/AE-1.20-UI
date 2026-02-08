@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expandedae:item/exp_pattern_provider_upgrade"
+  }
+}

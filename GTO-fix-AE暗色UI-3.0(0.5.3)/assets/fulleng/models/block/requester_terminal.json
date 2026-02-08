@@ -1,0 +1,9 @@
+{
+  "parent": "fulleng:block/terminal",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "lightsBright": "merequester:part/requester_terminal_bright",
+    "lightsDark": "merequester:part/requester_terminal_dark",
+    "lightsMedium": "merequester:part/requester_terminal_medium"
+  }
+}

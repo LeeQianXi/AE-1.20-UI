@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "bigger_ae2:block/crafting/64_core_crafting_accelerator"
+    },
+    "formed=true": {
+      "model": "bigger_ae2:block/crafting/64_core_crafting_accelerator_formed"
+    }
+  }
+}

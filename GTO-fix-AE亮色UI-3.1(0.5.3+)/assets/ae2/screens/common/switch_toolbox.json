@@ -1,0 +1,6 @@
+{
+  "$schema": "../schema.json",
+  "includes": [
+    "toolbox_left.json"
+  ]
+}

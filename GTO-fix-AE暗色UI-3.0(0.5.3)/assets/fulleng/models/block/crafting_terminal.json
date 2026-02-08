@@ -1,0 +1,9 @@
+{
+  "parent": "fulleng:block/terminal",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "lightsBright": "ae2:part/crafting_terminal_bright",
+    "lightsDark": "ae2:part/crafting_terminal_dark",
+    "lightsMedium": "ae2:part/crafting_terminal_medium"
+  }
+}

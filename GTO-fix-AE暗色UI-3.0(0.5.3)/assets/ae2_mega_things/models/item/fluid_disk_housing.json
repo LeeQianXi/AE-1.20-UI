@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ae2_mega_things:item/fluid_disk_housing"
+  }
+}

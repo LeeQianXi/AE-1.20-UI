@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bigger_ae2:block/crafting/64_core_crafting_accelerator"
+  }
+}

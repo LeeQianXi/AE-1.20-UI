@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "mae2a:block/pattern_provider_plus",
+    "down": "mae2a:block/pattern_provider_plus_alternate",
+    "up": "mae2a:block/pattern_provider_plus_alternate_front",
+    "north": "mae2a:block/pattern_provider_plus_alternate_arrow",
+    "south": "mae2a:block/pattern_provider_plus_alternate_arrow",
+    "east": "mae2a:block/pattern_provider_plus_alternate_arrow",
+    "west": "mae2a:block/pattern_provider_plus_alternate_arrow"
+  }
+}

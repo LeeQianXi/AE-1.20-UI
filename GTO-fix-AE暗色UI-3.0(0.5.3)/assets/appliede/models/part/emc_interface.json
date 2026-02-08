@@ -1,0 +1,9 @@
+{
+  "parent": "ae2:part/interface_base",
+  "textures": {
+    "front": "appliede:block/emc_interface",
+    "back": "appliede:part/emc_interface_back",
+    "sides": "appliede:part/emc_interface_sides",
+    "particle": "appliede:part/emc_interface_back"
+  }
+}

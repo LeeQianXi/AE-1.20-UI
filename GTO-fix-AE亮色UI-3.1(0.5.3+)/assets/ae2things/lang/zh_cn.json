@@ -1,0 +1,13 @@
+{
+  "item.ae2things.disk_drive_1k": "1k ME 磁盘驱动器",
+  "item.ae2things.disk_drive_4k": "4k ME 磁盘驱动器",
+  "item.ae2things.disk_drive_16k": "16k ME 磁盘驱动器",
+  "item.ae2things.disk_drive_64k": "64k ME 磁盘驱动器",
+  "item.ae2things.disk_drive_256k": "256k ME 磁盘驱动器",
+  "item.ae2things.disk_housing": "ME 磁盘外壳",
+  "command.ae2things.recover_success": "%s 已恢复 UUID 为 [%s] 的磁盘驱动器。",
+  "command.ae2things.recover_fail": "无法恢复磁盘驱动器：UUID [%s] 不存在。",
+  "command.ae2things.getuuid_success": "给定磁盘的 UUID 是：[%s]",
+  "command.ae2things.getuuid_fail_nouuid": "错误，给定磁盘为空/未找到 UUID。",
+  "command.ae2things.getuuid_fail_notdisk": "错误，给定的物品不是磁盘。"
+}

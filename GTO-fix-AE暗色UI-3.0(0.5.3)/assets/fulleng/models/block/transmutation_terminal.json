@@ -1,0 +1,9 @@
+{
+  "parent": "fulleng:block/terminal",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "lightsBright": "appliede:part/transmutation_terminal_bright",
+    "lightsDark": "appliede:part/transmutation_terminal_dark",
+    "lightsMedium": "appliede:part/transmutation_terminal_medium"
+  }
+}

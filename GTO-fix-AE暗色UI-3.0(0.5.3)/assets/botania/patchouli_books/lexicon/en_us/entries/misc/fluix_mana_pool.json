@@ -1,0 +1,18 @@
+{
+  "name": "appbot.entry.fluix_mana_pool",
+  "category": "botania:misc",
+  "icon": "appbot:fluix_mana_pool",
+  "entry_color": "aa00",
+  "advancement": "botania:main/elf_lexicon_pickup",
+  "pages": [
+    {
+      "type": "text",
+      "text": "appbot.page.fluix_mana_pool0"
+    },
+    {
+      "type": "crafting",
+      "text": "appbot.page.fluix_mana_pool1",
+      "recipe": "appbot:fluix_mana_pool"
+    }
+  ]
+}

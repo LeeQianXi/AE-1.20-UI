@@ -1,0 +1,8 @@
+{
+  "gtocore.crafting2.translation.self_increase_operator.main": "自增运算符",
+  "gtocore.crafting2.translation.self_increase_operator.help": "每个周期自动增加计数1",
+  "gtocore.crafting2.translation.cycle.indent": "  ",
+  "gtocore.crafting2.translation.common.click_to_copy": "点击复制: %s",
+  "gtocore.crafting2.translation.common.bracket_open": " [",
+  "gtocore.crafting2.translation.common.bracket_close": "]"
+}

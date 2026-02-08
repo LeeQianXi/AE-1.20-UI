@@ -1,0 +1,9 @@
+{
+  "parent": "fulleng:block/terminal",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "lightsBright": "extendedae:part/ex_pattern_access_terminal_bright",
+    "lightsDark": "extendedae:part/ex_pattern_access_terminal_dark",
+    "lightsMedium": "extendedae:part/ex_pattern_access_terminal_medium"
+  }
+}

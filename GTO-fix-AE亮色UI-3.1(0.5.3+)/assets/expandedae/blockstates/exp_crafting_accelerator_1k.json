@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "expandedae:block/crafting/exp_crafting_accelerator_1k"
+    },
+    "formed=true": {
+      "model": "expandedae:block/crafting/exp_crafting_accelerator_1k_formed"
+    }
+  }
+}

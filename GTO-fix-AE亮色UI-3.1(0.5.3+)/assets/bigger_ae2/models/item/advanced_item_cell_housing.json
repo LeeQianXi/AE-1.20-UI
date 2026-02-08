@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bigger_ae2:item/advanced_item_cell_housing"
+  }
+}

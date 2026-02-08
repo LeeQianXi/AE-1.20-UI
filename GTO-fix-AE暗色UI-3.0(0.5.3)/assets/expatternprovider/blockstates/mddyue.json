@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "expatternprovider:block/mddyue",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "expatternprovider:block/mddyue"
+    },
+    "facing=south": {
+      "model": "expatternprovider:block/mddyue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "expatternprovider:block/mddyue",
+      "y": 270
+    }
+  }
+}

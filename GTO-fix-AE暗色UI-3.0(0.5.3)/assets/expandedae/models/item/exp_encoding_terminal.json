@@ -1,0 +1,9 @@
+{
+  "parent": "ae2:item/display_base",
+  "textures": {
+    "front": "ae2:part/terminal",
+    "front_bright": "expandedae:part/exp_encoding_terminal_bright",
+    "front_medium": "expandedae:part/exp_encoding_terminal_medium",
+    "front_dark": "expandedae:part/exp_encoding_terminal_dark"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "item.ae2_toggleable_view_cell.toggleable_view_cell": "Toggleable View Cell",
+  "item.ae2_toggleable_view_cell.toggleable_view_cell.tooltip.enabled": "Enabled: %s",
+  "item.ae2_toggleable_view_cell.toggleable_view_cell.tooltip.howto": "Right-click to toggle"
+}

@@ -1,0 +1,39 @@
+{
+  "creativetab.expandedae": "Expanded AE",
+  "itemGroup.eae": "Expanded AE",
+
+  "item.expandedae.exp_pattern_provider_upgrade": "拓充样板供应器升级",
+  "item.expandedae.exp_pattern_provider_part": "拓充样板供应器",
+  "item.expandedae.auto_complete_card": "自动完成卡",
+  "item.expandedae.advanced_blocking_card": "分隔卡",
+  "item.expandedae.sticky_card": "粘滞卡",
+  "item.expandedae.filter_terminal": "过滤终端",
+  "item.expandedae.artificial_universe_cell": "模拟宇宙存储单元",
+  "item.expandedae.artificial_universe_component": "模拟宇宙组件",
+  "item.expandedae.artificial_universe_cell_housing": "模拟宇宙存储单元外壳",
+
+  "item.expandedae.advanced_blocking_card.tooltip.1": "将ME接口对应网络内容直接暴露",
+  "item.expandedae.auto_complete_card.tooltip.1": "自动完成合成请求",
+  "item.expandedae.auto_complete_card.tooltip.2": "注意：只对单个合成请求有效",
+  "item.expandedae.pattern_refiller_card.tooltip.1": "自动补充空白样板",
+  "item.expandedae.sticky_card.tooltip.1": "过滤对象仅从该存储总线进入网络",
+
+  "block.expandedae.exp_pattern_provider": "拓充样板供应器",
+
+  "gui.expandedae.exp_pattern_provider": "拓充样板供应器",
+  "gui.expandedae.filter_terminal": "过滤终端",
+
+  "group.adv_pattern_provider.name": "高级样板供应器",
+  "group.ex_pattern_provider.name": "拓展样板供应器",
+  "group.exp_pattern_provider.name": "拓充样板供应器",
+  "group.mega_pattern_provider.name": "MEGA样板供应器",
+  "group.pattern_provider.name": "样板供应器",
+  "group.interface.name": "ME接口",
+  "group.storage_bus.name": "存储总线",
+  "group.ex_interface.name": "ME拓展接口",
+  "group.oversize_interface.name": "ME超大接口",
+  "group.tag_storage_bus.name": "标签存储总线",
+  "group.mod_storage_bus.name": "模组存储总线",
+  "group.precise_storage_bus.name": "精准存储总线",
+  "group.pattern_encoding_terminal.name": "样板编码终端"
+}

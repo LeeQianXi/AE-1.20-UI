@@ -1,0 +1,15 @@
+{
+    DataVersion: 3465,
+    size: [16, 1, 2],
+    data: [
+        {pos: [12, 0, 1], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {ForgeCaps: {}, cable: {gn: {p: 0}, id: "ae2:fluix_smart_cable", visual: {channelsEast: 4, connections: ["east"], missingChannel: 0b, powered: 1b}}, hasRedstone: 2, id: "ae2:cable_bus", north: {fuzzy_mode: "IGNORE_ALL", gn: {p: 0}, id: "appliede:emc_import_bus", redstone_controlled: "IGNORE", visual: {missingChannel: 0b, powered: 1b}}, visual: {}}},
+        {pos: [13, 0, 1], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {ForgeCaps: {}, cable: {gn: {p: 0}, id: "ae2:fluix_smart_cable", visual: {channelsEast: 4, channelsWest: 4, connections: ["west", "east"], missingChannel: 0b, powered: 1b}}, hasRedstone: 2, id: "ae2:cable_bus", north: {fuzzy_mode: "IGNORE_ALL", gn: {p: 0}, id: "appliede:emc_export_bus", nextSlot: 0, redstone_controlled: "IGNORE", scheduling_mode: "DEFAULT", visual: {missingChannel: 0b, powered: 1b}}, visual: {}}},
+        {pos: [14, 0, 1], state: "ae2:cable_bus{light_level:0,waterlogged:false}", nbt: {ForgeCaps: {}, cable: {gn: {p: 0}, id: "ae2:fluix_smart_cable", visual: {channelsEast: 4, channelsWest: 4, connections: ["west", "east"], missingChannel: 0b, powered: 1b}}, hasRedstone: 2, id: "ae2:cable_bus", north: {gn: {p: 0}, id: "appliede:cable_emc_interface", visual: {missingChannel: 0b, powered: 1b}}, visual: {}}},
+        {pos: [15, 0, 1], state: "appliede:emc_interface", nbt: {ForgeCaps: {}, id: "appliede:emc_interface", proxy: {p: 0}, visual: {}}}
+    ],
+    entities: [],
+    palette: [
+        "ae2:cable_bus{light_level:0,waterlogged:false}",
+        "appliede:emc_interface"
+    ]
+}

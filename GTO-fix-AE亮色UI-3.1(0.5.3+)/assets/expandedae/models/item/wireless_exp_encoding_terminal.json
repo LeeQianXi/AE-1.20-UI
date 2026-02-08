@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "expandedae:item/wireless_exp_encoding_terminal"
+  }
+}

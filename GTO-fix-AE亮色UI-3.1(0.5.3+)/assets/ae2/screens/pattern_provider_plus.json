@@ -1,0 +1,61 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "common/player_inventory.json"],
+  "background": {
+    "texture": "guis/pattern_provider_plus.png",
+    "textureHeight": 320,
+    "textureWidth": 320,
+    "srcRect": [0, 0, 176, 279]
+  },
+  "slots": {
+    "ENCODED_PATTERN": {
+      "left": 8,
+      "top": 42,
+      "grid": "BREAK_AFTER_9COLS"
+    },
+    "STORAGE": {
+      "left": 8,
+      "top": 163,
+      "grid": "HORIZONTAL"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.mae2a.pattern_provider_plus"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "interface_config": {
+      "text": {
+        "translate": "gui.ae2.Patterns"
+      },
+      "position": {
+        "left": 8,
+        "top": 31
+      }
+    },
+    "interface_stored_items": {
+      "text": {
+        "translate": "gui.ae2.ReturnInventory"
+      },
+      "position": {
+        "left": 8,
+        "top": 152
+      }
+    }
+  },
+  "widgets": {
+    "openPriority": {
+      "left": 154,
+      "top": 0
+    },
+    "lockReason": {
+      "left": 5,
+      "top": 15
+    }
+  }
+}

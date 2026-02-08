@@ -1,0 +1,8 @@
+{
+  "parent": "ae2:item/cable_interface",
+  "textures": {
+    "front": "appliede:block/emc_interface",
+    "back": "appliede:part/emc_interface_back",
+    "sides": "appliede:part/emc_interface_sides"
+  }
+}

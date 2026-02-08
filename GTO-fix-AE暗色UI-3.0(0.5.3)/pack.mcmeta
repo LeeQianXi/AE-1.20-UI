@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": [ 15, 9999 ],
+    "description": [
+      {"bold":true,"italic":false,"underlined":false,"strikethrough":false,
+      "text":"By ","color":"#ffffff"},
+      {"bold":true,"italic":false,"underlined":false,"strikethrough":false,
+      "text":"LeeQianXi\n","color":"#ffffff"},
+      {"bold":false,"italic":false,"underlined":false,"strikethrough":false,
+      "text":"≥1.20 ","color":"#54fcfc"},
+      {"bold":false,"italic":false,"underlined":false,"strikethrough":false,
+      "text":"Best fit GregTech Odyssey","color":"#95959a"}
+    ]
+  }
+}

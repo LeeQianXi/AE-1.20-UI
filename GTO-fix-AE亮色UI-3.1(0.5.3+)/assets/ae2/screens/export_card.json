@@ -1,0 +1,35 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "common/player_inventory.json"],
+  "helpTopic": "ae2insertexportcard-index.md",
+  "background": {
+    "texture": "ae2insertexportcard:textures/gui/upgrade.png",
+    "srcRect": [0, 0, 176, 163]
+  },
+  "slots": {
+    "AE2INSERTEXPORTCARD_EXPORT_CONFIG": {
+      "left": 8,
+      "top": 29,
+      "grid": "BREAK_AFTER_9COLS"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "item.ae2insertexportcard.export_card"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "back": {
+      "left": 152,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    }
+  }
+}

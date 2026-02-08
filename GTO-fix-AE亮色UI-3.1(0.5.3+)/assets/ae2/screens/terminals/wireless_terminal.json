@@ -1,0 +1,24 @@
+{
+  "$schema": "../schema.json",
+  "includes": [
+    "terminal.json"
+  ],
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2.WirelessTerminal"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "upgrades": {
+      "$comment": "The upgrade panel found on some screens",
+      "right": -2,
+      "top": -2
+    }
+  }
+}

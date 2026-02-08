@@ -1,0 +1,73 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json"
+  ],
+  "generatedBackground": {
+    "width": 140,
+    "height": 100
+  },
+  "text": {
+    "dialog_title": {
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "tooltip_1": {
+      "position": {
+        "left": 8,
+        "top": 20
+      }
+    },
+    "tooltip_2": {
+      "position": {
+        "left": 8,
+        "top": 50
+      }
+    }
+  },
+  "widgets": {
+    "tab_0": {
+      "left": 138,
+      "top": 6,
+      "width": 20,
+      "height": 20
+    },
+    "tab_1": {
+      "left": 138,
+      "top": 26,
+      "width": 20,
+      "height": 20
+    },
+    "tab_2": {
+      "left": 138,
+      "top": 46,
+      "width": 20,
+      "height": 20
+    },
+    "rate_input": {
+      "left": 8,
+      "top": 30,
+      "height": 12,
+      "width": 80
+    },
+    "item_input": {
+      "left": 8,
+      "top": 30,
+      "height": 12,
+      "width": 80
+    },
+    "fluid_input": {
+      "left": 8,
+      "top": 60,
+      "height": 12,
+      "width": 80
+    },
+    "save_by_products": {
+      "left": 8,
+      "top": 80,
+      "width": 100
+    }
+  }
+}

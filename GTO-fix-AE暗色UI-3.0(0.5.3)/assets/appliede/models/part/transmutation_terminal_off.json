@@ -1,0 +1,8 @@
+{
+  "parent": "ae2:part/display_off",
+  "textures": {
+    "lightsBright": "appliede:part/transmutation_terminal_bright",
+    "lightsMedium": "appliede:part/transmutation_terminal_medium",
+    "lightsDark": "appliede:part/transmutation_terminal_dark"
+  }
+}

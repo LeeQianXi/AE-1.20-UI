@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "expandedae:block/exp_pattern_provider",
+    "down": "expandedae:block/exp_pattern_provider_alternate",
+    "up": "expandedae:block/exp_pattern_provider_alternate_front",
+    "north": "expandedae:block/exp_pattern_provider_alternate_arrow",
+    "south": "expandedae:block/exp_pattern_provider_alternate_arrow",
+    "east": "expandedae:block/exp_pattern_provider_alternate_arrow",
+    "west": "expandedae:block/exp_pattern_provider_alternate_arrow"
+  }
+}

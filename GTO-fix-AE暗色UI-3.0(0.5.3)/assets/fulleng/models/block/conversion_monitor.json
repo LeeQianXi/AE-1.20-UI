@@ -1,0 +1,9 @@
+{
+  "parent": "fulleng:block/terminal",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "lightsBright": "ae2:part/conversion_monitor_bright",
+    "lightsDark": "ae2:part/conversion_monitor_dark_locked",
+    "lightsMedium": "ae2:part/conversion_monitor_medium"
+  }
+}

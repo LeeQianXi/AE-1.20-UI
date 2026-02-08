@@ -1,0 +1,444 @@
+{
+  "variants": {
+    "facing=down,locked=false,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=false,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=down,locked=true,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 90
+    },
+    "facing=east,locked=false,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=false,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=east,locked=true,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 90
+    },
+    "facing=north,locked=false,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=false,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=false,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=false,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=false,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=false,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=false,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=false,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=true,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=true,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=true,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=true,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off"
+    },
+    "facing=north,locked=true,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=true,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=true,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=north,locked=true,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor"
+    },
+    "facing=south,locked=false,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=false,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=false,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=true,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=false,powered=true,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=false,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=false,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=true,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=south,locked=true,powered=true,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 180
+    },
+    "facing=up,locked=false,powered=false,spin=0": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=false,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=false,spin=2": {
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=false,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=true,spin=0": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=true,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=true,spin=2": {
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=false,powered=true,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=false,spin=0": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=false,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=false,spin=2": {
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=false,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=true,spin=0": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=true,spin=1": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=true,spin=2": {
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=up,locked=true,powered=true,spin=3": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "x": 270
+    },
+    "facing=west,locked=false,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=false,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=false,spin=0": {
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=false,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=false,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=false,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/terminal_off",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=true,spin=0": {
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=true,spin=1": {
+      "ae2:z": 270,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=true,spin=2": {
+      "ae2:z": 180,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    },
+    "facing=west,locked=true,powered=true,spin=3": {
+      "ae2:z": 90,
+      "model": "fulleng:block/conversion_monitor",
+      "y": 270
+    }
+  }
+}

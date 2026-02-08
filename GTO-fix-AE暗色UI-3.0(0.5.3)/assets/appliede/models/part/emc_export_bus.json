@@ -1,0 +1,7 @@
+{
+  "parent": "ae2:part/export_bus_base",
+  "textures": {
+    "front": "appliede:part/emc_export_bus",
+    "sides": "appliede:part/emc_export_bus_sides"
+  }
+}

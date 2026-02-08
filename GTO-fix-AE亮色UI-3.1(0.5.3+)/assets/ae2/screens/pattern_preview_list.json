@@ -1,0 +1,84 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json"
+  ],
+  "slots": {
+    "ENCODED_PATTERN": {
+      "left": 8,
+      "top": 55,
+      "grid": "BREAK_AFTER_9COLS"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.mae2a.pattern_list"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "multiply_0": {
+      "top": 16,
+      "left": 8,
+      "width": 28,
+      "height": 16
+    },
+    "multiply_1": {
+      "top": 16,
+      "left": 40,
+      "width": 28,
+      "height": 16
+    },
+    "multiply_2": {
+      "top": 16,
+      "left": 72,
+      "width": 28,
+      "height": 16
+    },
+    "multiply_3": {
+      "top": 16,
+      "left": 104,
+      "width": 28,
+      "height": 16
+    },
+    "divide_0": {
+      "top": 34,
+      "left": 8,
+      "width": 28,
+      "height": 16
+    },
+    "divide_1": {
+      "top": 34,
+      "left": 40,
+      "width": 28,
+      "height": 16
+    },
+    "divide_2": {
+      "top": 34,
+      "left": 72,
+      "width": 28,
+      "height": 16
+    },
+    "divide_3": {
+      "top": 34,
+      "left": 104,
+      "width": 28,
+      "height": 16
+    },
+    "confirm": {
+      "top": 60,
+      "left": 8,
+      "width": 48
+    },
+    "cancel": {
+      "top": 60,
+      "right": 54,
+      "width": 48
+    }
+  }
+}

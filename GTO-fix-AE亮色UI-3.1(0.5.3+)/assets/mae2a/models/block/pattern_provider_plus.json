@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mae2a:block/pattern_provider_plus"
+  }
+}

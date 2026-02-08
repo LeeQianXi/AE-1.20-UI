@@ -1,0 +1,88 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "guis/threshold_level_emitter.png",
+    "srcRect": [
+      0,
+      0,
+      176,
+      184
+    ]
+  },
+  "slots": {
+    "CONFIG": {
+      "left": 137,
+      "top": 47
+    },
+    "PLAYER_INVENTORY": {
+      "left": 8,
+      "bottom": 82,
+      "grid": "BREAK_AFTER_9COLS"
+    },
+    "PLAYER_HOTBAR": {
+      "left": 8,
+      "bottom": 24,
+      "grid": "HORIZONTAL"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.expatternprovider.threshold_level_emitter"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "upper_text": {
+      "text": {
+        "translate": "gui.expatternprovider.threshold_level_emitter.upper"
+      },
+      "position": {
+        "left": 20,
+        "top": 23
+      }
+    },
+    "lower_text": {
+      "text": {
+        "translate": "gui.expatternprovider.threshold_level_emitter.lower"
+      },
+      "position": {
+        "left": 20,
+        "top": 58
+      }
+    }
+  },
+  "widgets": {
+    "upperLevelInput": {
+      "left": 20,
+      "top": 34,
+      "width": 83,
+      "height": 12
+    },
+    "lowerLevelInput": {
+      "left": 20,
+      "top": 69,
+      "width": 83,
+      "height": 12
+    },
+    "lowerLevel": {
+      "left": 20,
+      "top": 17,
+      "width": 138,
+      "height": 62
+    },
+    "upperLevel": {
+      "left": 20,
+      "top": 17,
+      "width": 138,
+      "height": 62
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json"
+  ],
+  "generatedBackground": {
+    "width": 143,
+    "height": 150
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.mae2a.cable_place_tool"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "colors": {
+      "top": 18,
+      "left": 6
+    },
+    "cables": {
+      "top": 18,
+      "left": 73
+    },
+    "pick_distance": {
+      "top": 119,
+      "left": 6,
+      "width": 131,
+      "height": 16
+    }
+  }
+}

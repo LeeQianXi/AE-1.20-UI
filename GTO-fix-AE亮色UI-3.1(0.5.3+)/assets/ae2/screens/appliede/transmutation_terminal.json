@@ -1,0 +1,108 @@
+{
+  "includes": [
+    "../terminals/terminal.json"
+  ],
+  "slots": {
+    "PLAYER_INVENTORY": {
+      "left": 8,
+      "bottom": 82,
+      "grid": "BREAK_AFTER_9COLS"
+    },
+    "PLAYER_HOTBAR": {
+      "left": 8,
+      "bottom": 24,
+      "grid": "HORIZONTAL"
+    },
+    "APPLIEDE_TRANSMUTE": {
+      "left": 80,
+      "bottom": 118
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2.Terminal"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "terminal_title": {
+      "text": {
+        "translate": "gui.appliede.terminal"
+      },
+      "position": {
+        "left": 8,
+        "bottom": 132
+      }
+    },
+    "learned": {
+      "text": {
+        "translate": "gui.appliede.learned"
+      },
+      "color": "MUTED_TEXT_COLOR",
+      "position": {
+        "left": 18,
+        "bottom": 114
+      }
+    }
+  },
+  "terminalStyle": {
+    "header": {
+      "texture": "guis/appliede/terminal.png",
+      "srcRect": [
+        0,
+        0,
+        195,
+        17
+      ]
+    },
+    "firstRow": {
+      "texture": "guis/appliede/terminal.png",
+      "srcRect": [
+        0,
+        17,
+        195,
+        18
+      ]
+    },
+    "row": {
+      "texture": "guis/appliede/terminal.png",
+      "srcRect": [
+        0,
+        35,
+        195,
+        18
+      ]
+    },
+    "lastRow": {
+      "texture": "guis/appliede/terminal.png",
+      "srcRect": [
+        0,
+        53,
+        195,
+        18
+      ]
+    },
+    "bottom": {
+      "texture": "guis/appliede/terminal.png",
+      "srcRect": [
+        0,
+        71,
+        195,
+        134
+      ]
+    }
+  },
+  "widgets": {
+    "toggleShiftToTransmute": {
+      "left": 116,
+      "bottom": 118
+    },
+    "learnAllItems": {
+      "left": 134,
+      "bottom": 118
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "gtocore.crafting2.translation.self_increase_operator.main": "Self-Increase Operator",
+  "gtocore.crafting2.translation.self_increase_operator.help": "Automatically increases the count by 1 each cycle",
+  "gtocore.crafting2.translation.cycle.indent": "  ",
+  "gtocore.crafting2.translation.common.click_to_copy": "Click to copy: %s",
+  "gtocore.crafting2.translation.common.bracket_open": " [",
+  "gtocore.crafting2.translation.common.bracket_close": "]"
+}
