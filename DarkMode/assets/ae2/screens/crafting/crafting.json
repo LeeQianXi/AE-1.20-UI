@@ -1,0 +1,14 @@
+{
+  "$schema": "../schema.json",
+  "slots": {
+    "CRAFTING_GRID": {
+      "left": 34,
+      "bottom": 156,
+      "grid": "BREAK_AFTER_3COLS"
+    },
+    "CRAFTING_RESULT": {
+      "left": 125,
+      "bottom": 138
+    }
+  }
+}
