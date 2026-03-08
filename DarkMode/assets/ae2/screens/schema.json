@@ -362,6 +362,7 @@
           "STORAGE_CELL",
           "INSCRIBER_PLATE_TOP",
           "INSCRIBER_PLATE_BOTTOM",
+          "AAE_ARMOR",
           "MACHINE_INPUT",
           "MACHINE_PROCESSING",
           "MACHINE_OUTPUT",
