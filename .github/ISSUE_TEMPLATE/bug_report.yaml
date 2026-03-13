@@ -1,23 +1,30 @@
 name: "Texture Issue / 材质问题"
 description: "Report a missing or incorrect texture. / 报告缺失或错误的材质。"
+
 body:
-  - type: "input"
-    id: "object"
+  - type: input
+    id: title
+    attributes:
+      label: "Title / 标题"
+      description: "Briefly describe the issue. Example: Missing texture on AE2 Controller / 简要描述问题，例如：AE2 控制器贴图缺失"
+      placeholder: "Example: AE2 Controller texture missing"
+    validations:
+      required: true
+
+  - type: input
+    id: object
     attributes:
       label: "Block / Item / GUI"
       description: "Which block, item, or interface has the issue? / 哪个方块、物品或界面出现问题？"
-      placeholder: "Example: ME Controller/例如：ME控制器"
 
-  - type: "textarea"
-    id: "description"
+  - type: textarea
+    id: description
     attributes:
       label: "Description / 问题描述"
       description: "Describe the texture issue. / 描述材质问题。"
-      placeholder: "Describe the texture issue. / 描述材质问题。"
 
-  - type: "textarea"
-    id: "screenshot"
+  - type: textarea
+    id: screenshot
     attributes:
       label: "Screenshot / 截图"
       description: "Drag screenshots here if possible. / 如果可以，请拖入截图。"
-      placeholder: "Drag screenshots here if possible. / 如果可以，请拖入截图。"
