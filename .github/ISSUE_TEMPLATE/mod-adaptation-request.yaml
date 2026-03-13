@@ -10,3 +10,8 @@ body:
       placeholder: "Example: Create/例如：机械动力"
     validations:
       required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason / 请求原因"
+      description: "Why should this mod be supported? / 为什么希望适配这个模组？" 
