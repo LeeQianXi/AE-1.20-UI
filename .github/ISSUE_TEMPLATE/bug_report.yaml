@@ -1,0 +1,23 @@
+name: "Texture Issue / 材质问题"
+description: "Report a missing or incorrect texture. / 报告缺失或错误的材质。"
+body:
+  - type: "input"
+    id: "object"
+    attributes:
+      label: "Block / Item / GUI"
+      description: "Which block, item, or interface has the issue? / 哪个方块、物品或界面出现问题？"
+      placeholder: "Example: ME Controller/例如：ME控制器"
+
+  - type: "textarea"
+    id: "description"
+    attributes:
+      label: "Description / 问题描述"
+      description: "Describe the texture issue. / 描述材质问题。"
+      placeholder: "Describe the texture issue. / 描述材质问题。"
+
+  - type: "textarea"
+    id: "screenshot"
+    attributes:
+      label: "Screenshot / 截图"
+      description: "Drag screenshots here if possible. / 如果可以，请拖入截图。"
+      placeholder: "Drag screenshots here if possible. / 如果可以，请拖入截图。"

@@ -1,0 +1,18 @@
+name: "Mod Adaptation Request / 模组适配请求"
+description: "Request texture support for a mod. / 请求为某个模组添加材质适配。"
+
+body:
+  - type: input
+    id: mod_name
+    attributes:
+      label: "Mod Name / 模组名称"
+      description: "Which mod needs texture support? / 需要适配材质的模组名称"
+      placeholder: "Example: Create/例如：机械动力"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason / 请求原因"
+      description: "Why should this mod be supported? / 为什么希望适配这个模组？"
+      placeholder: "Why should this mod be supported? / 为什么希望适配这个模组？"
