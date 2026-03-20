@@ -59,16 +59,20 @@ jobs:
       - name: Sign artifacts
         if: env.GPG_PRIVATE_KEY != ''
         run: |
+          echo "GPG_PRIVATE_KEY is set, starting signing..."
+          ls -la build/
           for file in build/*.zip; do
+            echo "Signing $file"
             gpg --batch --yes --detach-sign --armor "$file"
           done
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.next_version }}
-          name: Release ${{ steps.version.outputs.next_version }}
+          name: AE-1.20-UI Multi-module ${{ steps.version.outputs.next_version }}
           body: |
-            Auto-generated release from merged PR #${{ github.event.pull_request.number }}.
+            ## What's Changed
+            * Auto-generated release from merged PR #${{ github.event.pull_request.number }}.
           files: |
             build/*.zip
             build/*.asc
