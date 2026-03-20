@@ -1,9 +1,12 @@
 name: Build and Release ResourcePack
 on:
   pull_request:
+    branches:
+      - main
+      - master
 jobs:
   build-and-release:
-    if: github.event.pull_request.merged == true
+    #if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
