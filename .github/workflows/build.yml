@@ -1,0 +1,73 @@
+name: Build and Release ResourcePack
+on:
+  pull_request:
+jobs:
+  build-and-release:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      VERSION_PREFIX: ${{ vars.VERSION_PREFIX }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Determine next version
+        id: version
+        run: |
+          PREFIX="${{ env.VERSION_PREFIX }}"
+          PATCH=$(git tag -l "${PREFIX}.*" | \
+                  sed -n 's/^'"${PREFIX}"'\.\([0-9]\+\)$/\1/p' | \
+                  sort -n | tail -1)
+          if [ -z "$PATCH" ]; then
+            NEXT_PATCH=0
+          else
+            NEXT_PATCH=$((PATCH + 1))
+          fi
+          NEXT_VERSION="${PREFIX}.${NEXT_PATCH}"
+          echo "next_version=${NEXT_VERSION}" >> $GITHUB_OUTPUT
+          echo "Next version will be: ${NEXT_VERSION}"
+      - name: Create and push tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag ${{ steps.version.outputs.next_version }}
+          git push origin ${{ steps.version.outputs.next_version }}
+      - name: Create build directory
+        run: mkdir -p build
+      - name: Build Light Mode ResourcePack
+        run: |
+          pushd ./LightMode
+          zip -r ../build/AE-Light-UI-${{ steps.version.outputs.next_version }}.zip .
+          popd
+      - name: Build Dark Mode ResourcePack
+        run: |
+          pushd ./DarkMode
+          zip -r ../build/AE-Dark-UI-${{ steps.version.outputs.next_version }}.zip .
+          popd
+      - name: Import GPG private key
+        if: env.GPG_PRIVATE_KEY != ''
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        run: |
+          echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+      - name: Sign artifacts
+        if: env.GPG_PRIVATE_KEY != ''
+        run: |
+          for file in build/*.zip; do
+            gpg --batch --yes --detach-sign --armor "$file"
+          done
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.next_version }}
+          name: Release ${{ steps.version.outputs.next_version }}
+          body: |
+            Auto-generated release from merged PR #${{ github.event.pull_request.number }}.
+          files: |
+            build/*.zip
+            build/*.asc
+          draft: false
+          prerelease: false
