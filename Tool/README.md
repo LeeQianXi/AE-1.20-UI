@@ -11,7 +11,6 @@
 - replace.sh:进行像素替换
 - clean.sh:清理原始数据
 - once.sh:一键处理脚本
-- 
 ---
 
 # English
@@ -21,4 +20,3 @@
 - replace.sh: Perform pixel replacement
 - clean.sh: Clean up the original data
 - once.sh: One-click processing script
-- 
