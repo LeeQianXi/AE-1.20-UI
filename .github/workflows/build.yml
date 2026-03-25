@@ -2,8 +2,7 @@ name: Build and Release ResourcePack
 on:
   pull_request:
     branches:
-      - main
-      - master
+      - master*
     types:
       - closed
 jobs:
@@ -12,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      VERSION_PREFIX: ${{ vars.VERSION_PREFIX }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,7 +19,7 @@ jobs:
       - name: Determine next version
         id: version
         run: |
-          PREFIX="${{ env.VERSION_PREFIX }}"
+          PREFIX=$(cat VERSION | tr -d '\n')
           PATCH=$(git tag -l "${PREFIX}.*" | \
                   sed -n 's/^'"${PREFIX}"'\.\([0-9]\+\)$/\1/p' | \
                   sort -n | tail -1)
