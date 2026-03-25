@@ -5,6 +5,7 @@ on:
       - master*
     types:
       - closed
+  workflow_dispatch:
 jobs:
   build-and-release:
     if: github.event.pull_request.merged == true
