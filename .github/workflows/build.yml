@@ -45,11 +45,6 @@ jobs:
           pushd ./LightMode
           zip -r ../build/AE-Light-UI-${{ steps.version.outputs.next_version }}.zip .
           popd
-      - name: Build Dark Mode ResourcePack
-        run: |
-          pushd ./DarkMode
-          zip -r ../build/AE-Dark-UI-${{ steps.version.outputs.next_version }}.zip .
-          popd
       - name: Import GPG private key
         if: env.GPG_PRIVATE_KEY != ''
         env:
@@ -74,7 +69,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.next_version }}
-          name: AE-UI Multi-module ${{ steps.version.outputs.next_version }}
+          name: AE-UI Multi-module ${{ steps.version.outputs.next_version }}-beta
+          make_latest: false
           body: |
             ## What's Changed
             * Auto-generated release from merged PR #${{ github.event.pull_request.number }}.

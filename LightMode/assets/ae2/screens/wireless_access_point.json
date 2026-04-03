@@ -1,0 +1,59 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "common/player_inventory.json"],
+  "background": {
+    "texture": "guis/wireless_access_point.png",
+    "srcRect": [0, 0, 176, 168]
+  },
+  "slots": {
+    "STORAGE": {
+      "left": 80,
+      "top": 47
+    },
+    "MACHINE_INPUT": {
+      "right": -3,
+      "top": 6
+    },
+    "MACHINE_OUTPUT": {
+      "right": -3,
+      "top": 64
+    }
+  },
+  "images": {
+    "linkPanel": {
+      "texture": "guis/wireless_access_point.png",
+      "srcRect": [203, 0, 31, 92]
+    }
+  },
+  "widgets": {
+    "linkPanel": {
+      "right": 2,
+      "top": 0
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2.Wireless"
+      },
+      "position": {
+        "left": 8,
+        "top": 7
+      }
+    },
+    "range": {
+      "position": {
+        "left": 88,
+        "top": 20
+      },
+      "align": "CENTER"
+    },
+    "energy_use": {
+      "position": {
+        "left": 88,
+        "top": 32
+      },
+      "align": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/toolbox.json"
+  ],
+  "background": {
+    "texture": "guis/energy_level_emitter.png",
+    "srcRect": [0, 0, 176, 186]
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2.EnergyLevelEmitter"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "level": {
+      "left": 20,
+      "top": 17,
+      "width": 138,
+      "height": 62
+    },
+    "levelInput": {
+      "left": 23,
+      "top": 42,
+      "width": 133,
+      "height": 12
+    }
+  }
+}
