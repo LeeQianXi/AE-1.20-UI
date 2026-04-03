@@ -1,6 +1,0 @@
-{
-  "parent": "appliede:item/cable_emc_interface",
-  "textures": {
-    "front": "expatternprovider:part/ex_emc_interface"
-  }
-}

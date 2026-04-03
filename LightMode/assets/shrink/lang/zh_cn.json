@@ -1,9 +1,0 @@
-{
-  "item.mob_bottle.tooltip_empty": "对已缩小的实体使用玻璃瓶右键点击以捕捉",
-  "item.shrink.mob_bottle": "生物瓶",
-  "item.shrink.shrinking_device": "个人缩小w装置",
-  "itemGroup.shrink": "缩小模组",
-  "key.shrink.category": "缩小",
-  "key.shrink.shrink": "切换缩小模式",
-  "shrink.deny_shrink": "由于实体含有阻止标签，无法进行缩小"
-}

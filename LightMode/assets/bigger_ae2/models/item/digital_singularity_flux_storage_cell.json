@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "bigger_ae2:item/digital_singularity_flux_storage_cell"
-  }
-}

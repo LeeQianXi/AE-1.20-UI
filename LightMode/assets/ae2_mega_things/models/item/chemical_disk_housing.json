@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "ae2_mega_things:item/chemical_disk_housing"
-  }
-}

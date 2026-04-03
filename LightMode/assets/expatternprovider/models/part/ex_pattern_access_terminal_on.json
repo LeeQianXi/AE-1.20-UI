@@ -1,8 +1,0 @@
-{
-  "parent": "ae2:part/pattern_access_terminal_on",
-  "textures": {
-    "lightsBright": "expatternprovider:part/ex_pattern_access_terminal_bright",
-    "lightsMedium": "expatternprovider:part/ex_pattern_access_terminal_medium",
-    "lightsDark": "expatternprovider:part/ex_pattern_access_terminal_dark"
-  }
-}

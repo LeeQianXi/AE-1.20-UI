@@ -1,7 +1,9 @@
 {
   "pack": {
-    "pack_format": 15,
-    "supported_formats": [ 15, 15 ],
+    "pack_format": 75,
+    "supported_formats": [ 15, 75 ],
+    "min_format": 15,
+    "max_format": 75,
     "description": [
       {"bold":true,"italic":false,"underlined":false,"strikethrough":false,
         "text":"By ","color":"#ffffff"},

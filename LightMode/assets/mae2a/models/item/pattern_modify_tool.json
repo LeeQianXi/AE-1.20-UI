@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "mae2a:item/pattern_modify_tool"
-  }
-}

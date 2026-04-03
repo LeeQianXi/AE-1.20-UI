@@ -1,6 +1,0 @@
-{
-  "parent": "ae2:item/cable_interface",
-  "textures": {
-    "front": "expatternprovider:part/ex_interface"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "includes": [
-    "transmutation_terminal.json",
-    "../wtlib/universal_terminal_with_viewcells.json"
-  ]
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "ae2_toggleable_view_cell:item/toggleable_view_cell_enabled"
-    }
-}

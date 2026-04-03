@@ -1,8 +1,0 @@
-{
-  "$schema": "schema.json",
-  "includes": ["common/common.json"],
-  "background": {
-    "texture": "guis/network_analyser.png",
-    "srcRect": [0, 0, 251, 168]
-  }
-}

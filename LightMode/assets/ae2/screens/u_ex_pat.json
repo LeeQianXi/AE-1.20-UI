@@ -1,7 +1,0 @@
-{
-  "$schema": "schema.json",
-  "includes": [
-    "ex_pattern_access_terminal.json",
-    "wtlib/universal_terminal_no_viewcells.json"
-  ]
-}
