@@ -5,6 +5,7 @@ on:
       - master*
     types:
       - closed
+  workflow_dispatch:
 jobs:
   build-and-release:
     if: github.event.pull_request.merged == true
@@ -73,7 +74,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.next_version }}
-          name: AE-1.20-UI Multi-module ${{ steps.version.outputs.next_version }}
+          name: AE-UI Multi-module ${{ steps.version.outputs.next_version }}
           body: |
             ## What's Changed
             * Auto-generated release from merged PR #${{ github.event.pull_request.number }}.
