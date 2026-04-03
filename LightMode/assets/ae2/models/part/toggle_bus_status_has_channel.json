@@ -1,0 +1,33 @@
+{
+  "textures": {
+    "indicator": "ae2:part/monitor_sides_status_on"
+  },
+  "elements": [
+    {
+      "from": [6, 6, 2],
+      "to": [10, 10, 3],
+      "faces": {
+        "down": {
+          "texture": "#indicator",
+          "tintindex": 1,
+          "neoforge_data": { "block_light": 15, "sky_light": 15 }
+        },
+        "up": {
+          "texture": "#indicator",
+          "tintindex": 1,
+          "neoforge_data": { "block_light": 15, "sky_light": 15 }
+        },
+        "east": {
+          "texture": "#indicator",
+          "tintindex": 1,
+          "neoforge_data": { "block_light": 15, "sky_light": 15 }
+        },
+        "west": {
+          "texture": "#indicator",
+          "tintindex": 1,
+          "neoforge_data": { "block_light": 15, "sky_light": 15 }
+        }
+      }
+    }
+  ]
+}

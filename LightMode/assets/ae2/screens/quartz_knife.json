@@ -1,0 +1,37 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "common/player_inventory.json"],
+  "background": {
+    "texture": "guis/quartzknife.png",
+    "srcRect": [0, 0, 176, 186]
+  },
+  "slots": {
+    "MACHINE_INPUT": {
+      "left": 94,
+      "top": 44
+    },
+    "MACHINE_OUTPUT": {
+      "left": 134,
+      "top": 44
+    }
+  },
+  "widgets": {
+    "name": {
+      "left": 21,
+      "top": 25,
+      "width": 90,
+      "height": 12
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.ae2.QuartzCuttingKnife"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  }
+}
