@@ -8,8 +8,8 @@ grep -v '^[[:space:]]*#' source.txt | while IFS= read -r line; do
       fi
     elif [ -d "$line" ]; then
       echo "Deal Folder: $line"
-      if [ -e ".${line}.back" ]; then
-        rm -r ".${line}.back"
+      if [ -e "${line}.back" ]; then
+        rm -r "${line}.back"
       fi
     else
       echo "Path is invalid: $line"

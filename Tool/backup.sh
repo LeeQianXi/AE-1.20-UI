@@ -10,9 +10,9 @@ grep -v '^[[:space:]]*#' source.txt | while IFS= read -r line; do
     elif [ -d "$line" ]; then
       echo "Deal Folder: $line"
       if [ ! -e "$line" ]; then
-        rm -r ".${line}.back"
+        rm -r "${line}.back"
       fi
-      cp -r "$line" ".${line}.back"
+      cp -r "$line" "${line}.back"
     else
       echo "Path is invalid: $line"
       continue

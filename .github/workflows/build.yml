@@ -41,9 +41,18 @@ jobs:
       - name: Create build directory
         run: mkdir -p build
       - name: Build Light Mode ResourcePack
+        if: true
         run: |
+          cp LICENSE ./LightMode/LICENSE
           pushd ./LightMode
           zip -r ../build/AE-Light-UI-${{ steps.version.outputs.next_version }}.zip .
+          popd
+      - name: Build Dark Mode ResourcePack
+        if: true
+        run: |
+          cp LICENSE ./DarkMode/LICENSE
+          pushd ./DarkMode
+          zip -r ../build/AE-Dark-UI-${{ steps.version.outputs.next_version }}.zip .
           popd
       - name: Import GPG private key
         if: env.GPG_PRIVATE_KEY != ''
