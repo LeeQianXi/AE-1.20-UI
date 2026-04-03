@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema.json",
+  "includes": ["common/common.json"],
+  "generatedBackground": {
+    "width": 200
+  },
+  "text": {
+    "dialog_title": {
+      "position": {
+        "left": 8,
+        "top": 7
+      }
+    }
+  },
+  "widgets": {
+    "back": {
+      "left": 176,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    },
+    "keytypes": {
+      "left": 10,
+      "top": 20,
+      "width": 160
+    }
+  }
+}

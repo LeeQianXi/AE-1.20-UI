@@ -6,7 +6,7 @@ body:
     attributes:
       label: "Block / Item / GUI"
       description: "Which block, item, or interface has the issue? / 哪个方块、物品或界面出现问题？"
-      placeholder: "Example: ME Controller/例如：ME控制器"
+      placeholder: "Example: ME Controller/例如:ME控制器"
 
   - type: "textarea"
     id: "description"
