@@ -41,12 +41,16 @@ jobs:
       - name: Create build directory
         run: mkdir -p build
       - name: Build Light Mode ResourcePack
+        if: true
         run: |
+          cp LICENSE ./LightMode/LICENSE
           pushd ./LightMode
           zip -r ../build/AE-Light-UI-${{ steps.version.outputs.next_version }}.zip .
           popd
       - name: Build Dark Mode ResourcePack
+        if: true
         run: |
+          cp LICENSE ./DarkMode/LICENSE
           pushd ./DarkMode
           zip -r ../build/AE-Dark-UI-${{ steps.version.outputs.next_version }}.zip .
           popd
@@ -75,6 +79,7 @@ jobs:
         with:
           tag_name: ${{ steps.version.outputs.next_version }}
           name: AE-UI Multi-module ${{ steps.version.outputs.next_version }}
+          make_latest: true
           body: |
             ## What's Changed
             * Auto-generated release from merged PR #${{ github.event.pull_request.number }}.
