@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "gtlcore:block/support_ctm"
+    }
+}

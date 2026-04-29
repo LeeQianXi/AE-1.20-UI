@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/circuit/circuit_ulv",
+    "layer1": "kubejs:item/circuit/ulv"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/circuit/magneto_resonatic_circuit_lv",
+    "layer1": "kubejs:item/circuit/magneto_lv"
+  }
+}
