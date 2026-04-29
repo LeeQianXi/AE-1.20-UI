@@ -1,9 +1,0 @@
-{
-  "animation": {
-    "frametime": 8,
-    "interpolate": true
-  },
-    "ldlib": {
-        "connection": "kubejs:block/restraint_device_ctm"
-    }
-}

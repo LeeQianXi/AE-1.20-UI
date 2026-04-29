@@ -1,5 +1,0 @@
-{
-    "ldlib": {
-        "connection": "kubejs:block/accelerated_pipeline_ctm"
-    }
-}
