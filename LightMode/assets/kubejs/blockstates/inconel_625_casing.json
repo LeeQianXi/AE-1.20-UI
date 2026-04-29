@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/inconel_625_casing"
+    }
+  }
+}

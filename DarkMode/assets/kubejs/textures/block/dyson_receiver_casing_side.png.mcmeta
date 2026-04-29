@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/dyson_receiver_casing_side_ctm"
+    }
+}

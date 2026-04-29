@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/hastelloy_n_75_casing"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/molecular_coil_top_ctm"
+    }
+}

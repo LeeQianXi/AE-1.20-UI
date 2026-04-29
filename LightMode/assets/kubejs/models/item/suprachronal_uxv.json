@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/circuit/suprachronal_circuit",
+    "layer1": "kubejs:item/circuit/bulb_uxv",
+    "layer2": "kubejs:item/circuit/suprachronal_uxv"
+  }
+}

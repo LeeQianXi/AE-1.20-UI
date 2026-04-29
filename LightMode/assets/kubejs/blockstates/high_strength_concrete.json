@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/high_strength_concrete"
+    }
+  }
+}
