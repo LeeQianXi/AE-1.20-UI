@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kubejs:item/circuit/bioware_mainframe",
-    "layer1": "kubejs:item/circuit/bioware_mainframe_uev"
-  }
-}
