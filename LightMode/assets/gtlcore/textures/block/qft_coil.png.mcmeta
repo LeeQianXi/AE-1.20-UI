@@ -1,8 +1,0 @@
-{
-    "ldlib": {
-        "connection": "gtlcore:block/qft_coil_ctm"
-    },
-    "animation": {
-        "frametime": 3
-    }
-}

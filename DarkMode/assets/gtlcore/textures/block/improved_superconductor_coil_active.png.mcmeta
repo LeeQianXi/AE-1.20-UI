@@ -1,9 +1,0 @@
-{
-    "ldlib": {
-        "connection": "gtlcore:block/improved_superconductor_coil_active_ctm",
-        "emissive": true
-    },
-    "shimmer": {
-        "bloom": true
-    }
-}

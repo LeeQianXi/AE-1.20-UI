@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kubejs:item/circuit/magneto_resonatic_circuit_uev_base",
-    "layer1": "kubejs:item/circuit/magneto_resonatic_electron_flow",
-                "layer2": "kubejs:item/circuit/magneto_uev"
-  }
-}

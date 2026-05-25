@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "kubejs:item/circuit/circuit_max",
-    "layer1": "kubejs:item/circuit/max"
-  }
-}
