@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema.json",
+  "widgets": {
+    "back_button": {
+      "right": 24,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    }
+  }
+}

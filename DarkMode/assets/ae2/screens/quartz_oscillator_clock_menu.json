@@ -1,0 +1,75 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/quartz_oscillator_clock_menu.png",
+    "textureWidth": 512,
+    "textureHeight": 512,
+    "srcRect": [0, 0, 176, 282]
+  },
+  "slots": {
+    "CONFIG": {
+      "left": 137,
+      "top": 40
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "block.ae2cs.quartz_oscillator_clock"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "count_down_text": {
+      "text": {
+        "translate": "ae2cs.menu.quartz_oscillator_clock.text.count_down"
+      },
+      "position": {
+        "left": 8,
+        "top": 24
+      }
+    },
+    "pulse_width_text": {
+      "text": {
+        "translate": "ae2cs.menu.quartz_oscillator_clock.text.pulse_width"
+      },
+      "position": {
+        "left": 8,
+        "top": 110
+      }
+    }
+  },
+  "widgets": {
+    "level_count_hold": {
+      "left": 20,
+      "top": 34,
+      "width": 138,
+      "height": 62
+    },
+    "level_count_hold_input": {
+      "left": 23,
+      "top": 61,
+      "width": 103,
+      "height": 12
+    },
+    "level_pulse_width": {
+      "left": 20,
+      "top": 120,
+      "width": 138,
+      "height": 62
+    },
+    "level_pulse_width_input": {
+      "left": 23,
+      "top": 145,
+      "width": 103,
+      "height": 12
+    }
+  }
+}

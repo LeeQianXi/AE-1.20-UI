@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ae2cs:block/crystal_aggregator/on/bottom",
+    "east": "ae2cs:block/crystal_aggregator/on/left",
+    "north": "ae2cs:block/crystal_aggregator/on/front",
+    "particle": "ae2cs:block/crystal_aggregator/on/front",
+    "south": "ae2cs:block/crystal_aggregator/on/back",
+    "up": "ae2cs:block/crystal_aggregator/on/top",
+    "west": "ae2cs:block/crystal_aggregator/on/right"
+  }
+}

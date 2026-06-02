@@ -1,0 +1,35 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/resonating_pattern_converter_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 176]
+  },
+  "slots": {
+    "MACHINE_INPUT": { "left": 8, "top": 25, "grid": "BREAK_AFTER_3COLS" },
+    "MACHINE_OUTPUT": { "left": 116, "top": 25, "grid": "BREAK_AFTER_3COLS" },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "item.ae2cs.resonating_pattern_converter" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "widgets": {
+    "converter": {
+      "left": 80,
+      "top": 41
+    }
+  }
+}

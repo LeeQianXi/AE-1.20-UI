@@ -1,0 +1,72 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/ender_broadcaster_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 215]
+  },
+  "slots": {
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2cs.ender_broadcaster" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "band_name": {
+      "position": { "left": 10, "top": 28 }
+    },
+    "connect_status": {
+      "position": { "left": 10, "top": 49 }
+    },
+    "receiver_expected_channels_title": {
+      "position": { "left": 10, "top": 80 }
+    },
+    "receiver_expected_channels_count": {
+      "position": { "left": 88, "top": 97 },
+      "align": "CENTER"
+    },
+    "receiver_actual_channels": {
+      "position": { "left": 10, "top": 69 }
+    },
+    "sender_sent_channels": {
+      "position": { "left": 10, "top": 69 }
+    }
+  },
+  "widgets": {
+    "add_receiver_expected_channels_button_10": {
+      "right": 36,
+      "top": 90,
+      "width": 26,
+      "height": 20
+    },
+    "add_receiver_expected_channels_button_1": {
+      "right": 70,
+      "top": 90,
+      "width": 26,
+      "height": 20
+    },
+    "reduce_receiver_expected_channels_button_1": {
+      "left": 44,
+      "top": 90,
+      "width": 26,
+      "height": 20
+    },
+    "reduce_receiver_expected_channels_button_10": {
+      "left": 10,
+      "top": 90,
+      "width": 26,
+      "height": 20
+    }
+  }
+}
