@@ -1,0 +1,54 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/ender_emitter_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 168]
+  },
+  "slots": {
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "block.ae2cs.ender_emitter"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "max_distance": {
+      "position": {
+        "left": 10,
+        "top": 20
+      }
+    },
+    "distance": {
+      "position": {
+        "left": 10,
+        "top": 36
+      }
+    }
+  },
+  "widgets": {
+    "add_distance_button": {
+      "right": 26,
+      "top": 16
+    },
+    "reduce_distance_button": {
+      "right": 26,
+      "top": 48
+    }
+  }
+}

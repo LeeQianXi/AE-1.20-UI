@@ -1,0 +1,48 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/crystal_vibration_chamber_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 168]
+  },
+  "slots": {
+    "MACHINE_INPUT": { "left": 80, "top": 37, "grid": "VERTICAL" },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2cs.crystal_vibration_chamber" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "images": {
+    "generationRateBar": {
+      "texture": "ae2cs:textures/gui/crystal_vibration_chamber_menu.png",
+      "srcRect": [176, 14, 6, 18]
+    },
+    "burnProgressBar": {
+      "texture": "ae2cs:textures/gui/crystal_vibration_chamber_menu.png",
+      "srcRect": [176, 0, 14, 14]
+    }
+  },
+  "widgets": {
+    "generationRateBar": {
+      "left": 99,
+      "top": 36
+    },
+    "burnProgressBar": {
+      "left": 81,
+      "top": 21
+    }
+  }
+}

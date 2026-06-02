@@ -1,0 +1,28 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "aecs_util/back_button.json"],
+  "background": {
+    "texture": "ae2cs:textures/gui/frequency_band_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 195, 219]
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "ae2cs.menu.title.frequency_bands" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "widgets": {
+    "scrollbar": {
+      "left": 175,
+      "top": 37
+    },
+    "search": {
+      "left": 8,
+      "top": 18,
+      "width": 89,
+      "height": 12
+    }
+  }
+}

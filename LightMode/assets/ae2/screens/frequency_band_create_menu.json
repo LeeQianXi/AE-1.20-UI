@@ -1,0 +1,46 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "aecs_util/back_button.json"],
+  "background": {
+    "texture": "ae2cs:textures/gui/frequency_band_create_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 119]
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "ae2cs.menu.title.frequency_band_create" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "widgets": {
+    "band_name_field": {
+      "left": 10,
+      "top": 20,
+      "width": 100,
+      "height": 12
+    },
+    "password_field": {
+      "left": 10,
+      "top": 40,
+      "width": 100,
+      "height": 12
+    },
+    "is_public_box": {
+      "left": 10,
+      "top": 60,
+      "width": 67
+    },
+    "allow_memory_card_copy": {
+      "left": 85,
+      "top": 60,
+      "width": 67
+    },
+    "confirm_button": {
+      "left": 115,
+      "top": 19,
+      "width": 40,
+      "height": 14
+    }
+  }
+}

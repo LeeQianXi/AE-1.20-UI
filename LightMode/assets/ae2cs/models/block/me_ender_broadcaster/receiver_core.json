@@ -1,0 +1,7 @@
+{
+  "parent": "ae2cs:block/me_ender_broadcaster/sender_core",
+  "textures":
+  {
+    "4": "ae2cs:block/me_ender_broadcaster/crystal_recieving"
+  }
+}

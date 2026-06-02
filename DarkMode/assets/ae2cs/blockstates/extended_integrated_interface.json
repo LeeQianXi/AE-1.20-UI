@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "push_direction=all": {
+      "model": "ae2cs:block/extended_integrated_interface"
+    },
+    "push_direction=down": {
+      "model": "ae2cs:block/extended_integrated_interface_oriented",
+      "x": 180
+    },
+    "push_direction=east": {
+      "model": "ae2cs:block/extended_integrated_interface_oriented",
+      "x": 90,
+      "y": 90
+    },
+    "push_direction=north": {
+      "model": "ae2cs:block/extended_integrated_interface_oriented",
+      "x": 90
+    },
+    "push_direction=south": {
+      "model": "ae2cs:block/extended_integrated_interface_oriented",
+      "x": 90,
+      "y": 180
+    },
+    "push_direction=up": {
+      "model": "ae2cs:block/extended_integrated_interface_oriented"
+    },
+    "push_direction=west": {
+      "model": "ae2cs:block/extended_integrated_interface_oriented",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
