@@ -1,0 +1,44 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "aecs_util/back_button.json"],
+  "background": {
+    "texture": "ae2cs:textures/gui/frequency_band_manager_menu.png",
+    "textureWidth": 512,
+    "textureHeight": 512,
+    "srcRect": [0, 0, 195, 226]
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "ae2cs.menu.title.frequency_band_manager" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "band_name": {
+      "position": { "left": 10, "top": 170 }
+    },
+    "channel_usage": {
+      "position": { "left": 10, "top": 180 }
+    },
+    "band_error": {
+      "position": { "left": 10, "top": 190 },
+      "maxWidth": 165
+    }
+  },
+  "widgets": {
+    "input_password_field": {
+      "left": 8,
+      "top": 155,
+      "width": 89,
+      "height": 12
+    },
+    "confirm_password_change_button": {
+      "left": 100,
+      "top": 154,
+      "width": 40,
+      "height": 14
+    },
+    "broadcaster_scrollbar": {
+      "left": 175,
+      "top": 19
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/block",
+  "render_type": "cutout",
+  "textures": {
+    "particle": "ae2cs:block/me_ender_transmitter/me_ender_transmitter"
+  },
+  "elements": []
+}

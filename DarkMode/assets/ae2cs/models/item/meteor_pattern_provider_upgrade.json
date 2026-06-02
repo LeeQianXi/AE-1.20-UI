@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ae2cs:item/meteor_pattern_provider_upgrade"
+  }
+}

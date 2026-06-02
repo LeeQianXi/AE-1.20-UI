@@ -1,0 +1,63 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/meteorite_pattern_provider_menu.png",
+    "textureWidth": 512,
+    "textureHeight": 512,
+    "srcRect": [0, 0, 176, 294]
+  },
+  "slots": {
+    "ENCODED_PATTERN": {
+      "left": 8,
+      "top": 37,
+      "grid": "BREAK_AFTER_9COLS"
+    },
+    "STORAGE": {
+      "left": 8,
+      "top": 176,
+      "grid": "BREAK_AFTER_9COLS"
+    },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "block.ae2cs.meteorite_pattern_provider"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "interface_stored_items": {
+      "text": {
+        "translate": "gui.ae2cs.return_inv"
+      },
+      "position": {
+        "left": 8,
+        "top": 165
+      }
+    }
+  },
+  "widgets": {
+    "openPriority": {
+      "left": 152,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    },
+    "lockReason": {
+      "left": 5,
+      "top": 15
+    }
+  }
+}

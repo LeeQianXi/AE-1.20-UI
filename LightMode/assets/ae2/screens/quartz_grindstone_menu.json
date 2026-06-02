@@ -1,0 +1,42 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/quartz_grindstone_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 178]
+  },
+  "slots": {
+    "MACHINE_INPUT": { "left": 12, "top": 17, "grid": "HORIZONTAL" },
+    "STORAGE": { "left": 80, "top": 40, "grid": "HORIZONTAL" },
+    "MACHINE_OUTPUT": { "left": 112, "top": 63, "grid": "HORIZONTAL" },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2cs.quartz_grindstone" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "images": {
+    "workingProgressBar": {
+      "texture": "ae2cs:textures/gui/quartz_grindstone_menu.png",
+      "srcRect": [176, 0, 18, 6]
+    }
+  },
+  "widgets": {
+    "workingProgressBar": {
+      "left": 79,
+      "top": 64
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ae2cs:block/quartz_oscillator_clock/off/bottom",
+    "east": "ae2cs:block/quartz_oscillator_clock/off/left",
+    "north": "ae2cs:block/quartz_oscillator_clock/off/front",
+    "particle": "ae2cs:block/quartz_oscillator_clock/off/front",
+    "south": "ae2cs:block/quartz_oscillator_clock/off/back",
+    "up": "ae2cs:block/quartz_oscillator_clock/off/top",
+    "west": "ae2cs:block/quartz_oscillator_clock/off/right"
+  }
+}
