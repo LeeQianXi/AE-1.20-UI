@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ae2cs:block/crystal_vibration_chamber/off/bottom",
+    "east": "ae2cs:block/crystal_vibration_chamber/off/left",
+    "north": "ae2cs:block/crystal_vibration_chamber/off/front",
+    "particle": "ae2cs:block/crystal_vibration_chamber/off/front",
+    "south": "ae2cs:block/crystal_vibration_chamber/off/back",
+    "up": "ae2cs:block/crystal_vibration_chamber/off/top",
+    "west": "ae2cs:block/crystal_vibration_chamber/off/right"
+  }
+}

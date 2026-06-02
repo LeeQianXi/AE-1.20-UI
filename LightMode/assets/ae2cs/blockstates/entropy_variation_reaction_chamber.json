@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "active=false,facing=east": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/off",
+      "y": 90
+    },
+    "active=false,facing=north": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/off"
+    },
+    "active=false,facing=south": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/off",
+      "y": 180
+    },
+    "active=false,facing=west": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/off",
+      "y": 270
+    },
+    "active=true,facing=east": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/on",
+      "y": 90
+    },
+    "active=true,facing=north": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/on"
+    },
+    "active=true,facing=south": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/on",
+      "y": 180
+    },
+    "active=true,facing=west": {
+      "model": "ae2cs:block/entropy_variation_reaction_chamber/on",
+      "y": 270
+    }
+  }
+}

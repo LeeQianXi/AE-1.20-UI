@@ -1,0 +1,6 @@
+{
+  "parent": "ae2:part/interface_base",
+  "textures": {
+    "front": "ae2cs:block/ender_interface/extended"
+  }
+}

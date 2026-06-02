@@ -1,0 +1,104 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/integrated_interface_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 231]
+  },
+  "slots": {
+    "CONFIG": { "left": 8, "top": 53, "grid": "BREAK_AFTER_9COLS" },
+    "STORAGE": { "left": 8, "top": 71, "grid": "BREAK_AFTER_9COLS" },
+    "ENCODED_PATTERN": { "left": 8, "top": 115, "grid": "BREAK_AFTER_9COLS" },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2cs.integrated_interface" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "storage_inv": {
+      "text": { "translate": "gui.ae2cs.storage_inv" },
+      "position": { "left": 8, "top": 90 }
+    },
+    "pattern_inv": {
+      "text": { "translate": "gui.ae2cs.pattern_inv" },
+      "position": { "left": 8, "top": 104 }
+    }
+  },
+  "widgets": {
+    "openPriority": {
+      "left": 152,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    },
+    "lockReason": {
+      "left": 5,
+      "top": 15
+    },
+    "amtButton1": {
+      "left": 8,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton2": {
+      "left": 26,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton3": {
+      "left": 44,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton4": {
+      "left": 62,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton5": {
+      "left": 80,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton6": {
+      "left": 98,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton7": {
+      "left": 116,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton8": {
+      "left": 134,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    },
+    "amtButton9": {
+      "left": 152,
+      "top": 35,
+      "width": 16,
+      "height": 16
+    }
+  }
+}

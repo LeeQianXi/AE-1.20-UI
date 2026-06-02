@@ -1,0 +1,7 @@
+{
+  "parent": "ae2:item/cable_pattern_provider",
+  "textures": {
+    "front": "ae2cs:block/extended_resonating_pattern_provider/base",
+    "back": "ae2cs:block/extended_resonating_pattern_provider/back"
+  }
+}
