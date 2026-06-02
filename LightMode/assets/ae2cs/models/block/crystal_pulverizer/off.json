@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ae2cs:block/crystal_pulverizer/off/bottom",
+    "east": "ae2cs:block/crystal_pulverizer/off/left",
+    "north": "ae2cs:block/crystal_pulverizer/off/front",
+    "particle": "ae2cs:block/crystal_pulverizer/off/front",
+    "south": "ae2cs:block/crystal_pulverizer/off/back",
+    "up": "ae2cs:block/crystal_pulverizer/off/top",
+    "west": "ae2cs:block/crystal_pulverizer/off/right"
+  }
+}

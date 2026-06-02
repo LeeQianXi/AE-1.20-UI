@@ -1,0 +1,55 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "aecs_util/back_button.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/side_config_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [
+      0,
+      0,
+      96,
+      101
+    ]
+  },
+  "text": {
+    "title": {
+      "text": {
+        "translate": "ae2cs.menu.title.side_config_menu"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "widgets": {
+    "top_side_button": {
+      "left": 39,
+      "top": 20
+    },
+    "bottom_side_button": {
+      "left": 39,
+      "top": 64
+    },
+    "left_side_button": {
+      "left": 18,
+      "top": 42
+    },
+    "right_side_button": {
+      "left": 60,
+      "top": 42
+    },
+    "front_side_button": {
+      "left": 39,
+      "top": 42
+    },
+    "back_side_button": {
+      "left": 18,
+      "top": 64
+    }
+  }
+}

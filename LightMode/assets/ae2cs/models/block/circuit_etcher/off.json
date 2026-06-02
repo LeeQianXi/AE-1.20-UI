@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ae2cs:block/circuit_etcher/off/bottom",
+    "east": "ae2cs:block/circuit_etcher/off/left",
+    "north": "ae2cs:block/circuit_etcher/off/front",
+    "particle": "ae2cs:block/circuit_etcher/off/front",
+    "south": "ae2cs:block/circuit_etcher/off/back",
+    "up": "ae2cs:block/circuit_etcher/off/top",
+    "west": "ae2cs:block/circuit_etcher/off/right"
+  }
+}

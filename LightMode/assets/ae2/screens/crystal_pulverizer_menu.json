@@ -1,0 +1,49 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/switch_toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2cs:textures/gui/crystal_pulverizer_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 178]
+  },
+  "slots": {
+    "MACHINE_INPUT": { "left": 46, "top": 41, "grid": "VERTICAL" },
+    "MACHINE_OUTPUT": { "left": 98, "top": 32, "grid": "BREAK_AFTER_2COLS" },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2cs.crystal_pulverizer" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "images": {
+    "energyRateBar": {
+      "texture": "ae2cs:textures/gui/crystal_pulverizer_menu.png",
+      "srcRect": [176, 34, 6, 18]
+    },
+    "workingProgressBar": {
+      "texture": "ae2cs:textures/gui/crystal_pulverizer_menu.png",
+      "srcRect": [176, 16, 22, 16]
+    }
+  },
+  "widgets": {
+    "energyRateBar": {
+      "left": 135,
+      "top": 40
+    },
+    "workingProgressBar": {
+      "left": 71,
+      "top": 41
+    }
+  }
+}

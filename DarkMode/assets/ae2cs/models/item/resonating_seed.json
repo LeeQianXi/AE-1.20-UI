@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "ae2cs:item/resonating_seed_1",
+      "predicate": {
+        "ae2cs:age": 0.333
+      }
+    },
+    {
+      "model": "ae2cs:item/resonating_seed_2",
+      "predicate": {
+        "ae2cs:age": 0.666
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "ae2cs:item/resonating_seed_0"
+  }
+}

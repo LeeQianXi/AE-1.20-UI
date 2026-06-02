@@ -1,0 +1,26 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "aecs_util/back_button.json"],
+  "background": {
+    "texture": "ae2cs:textures/gui/band_white_list_manager_menu.png",
+    "textureWidth": 512,
+    "textureHeight": 512,
+    "srcRect": [0, 0, 363, 219]
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "ae2cs.menu.title.band_white_list_manager" },
+      "position": { "left": 8, "top": 6 }
+    }
+  },
+  "widgets": {
+    "whitelist_scrollbar": {
+      "left": 175,
+      "top": 19
+    },
+    "other_scrollbar": {
+      "left": 175,
+      "top": 19
+    }
+  }
+}

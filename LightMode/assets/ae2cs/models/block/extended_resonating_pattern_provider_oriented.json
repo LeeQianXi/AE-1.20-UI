@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "ae2cs:block/extended_resonating_pattern_provider/alternate",
+    "east": "ae2cs:block/extended_resonating_pattern_provider/alternate_arrow",
+    "north": "ae2cs:block/extended_resonating_pattern_provider/alternate_arrow",
+    "particle": "ae2cs:block/extended_resonating_pattern_provider/base",
+    "south": "ae2cs:block/extended_resonating_pattern_provider/alternate_arrow",
+    "up": "ae2cs:block/extended_resonating_pattern_provider/alternate_front",
+    "west": "ae2cs:block/extended_resonating_pattern_provider/alternate_arrow"
+  }
+}

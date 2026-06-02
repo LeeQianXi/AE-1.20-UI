@@ -1,0 +1,7 @@
+{
+  "parent": "ae2:item/cable_interface",
+  "textures": {
+    "front": "ae2cs:block/extended_integrated_interface/base",
+    "back": "ae2cs:block/extended_integrated_interface/back"
+  }
+}

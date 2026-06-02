@@ -1,0 +1,43 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "aecs_util/back_button.json"],
+  "background": {
+    "texture": "ae2cs:textures/gui/frequency_band_link_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 64]
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "ae2cs.menu.title.frequency_band_link" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "link_state": {
+      "position": { "left": 120, "top": 6 }
+    }
+  },
+  "widgets": {
+    "password_input": {
+      "left": 10,
+      "top": 20,
+      "width": 100,
+      "height": 12
+    },
+    "as_sender_box": {
+      "left": 10,
+      "top": 35,
+      "width": 67
+    },
+    "as_receiver_box": {
+      "left": 85,
+      "top": 35,
+      "width": 67
+    },
+    "confirm_button": {
+      "left": 115,
+      "top": 19,
+      "width": 40,
+      "height": 14
+    }
+  }
+}
