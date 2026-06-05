@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "ae2cs:block/quartz_oscillator_clock/off"
+    },
+    "active=true": {
+      "model": "ae2cs:block/quartz_oscillator_clock/on"
+    }
+  }
+}

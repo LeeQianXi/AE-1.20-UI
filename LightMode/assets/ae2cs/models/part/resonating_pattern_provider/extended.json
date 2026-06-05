@@ -1,0 +1,8 @@
+{
+  "parent": "ae2:part/pattern_provider_base",
+  "textures": {
+    "front": "ae2cs:block/extended_resonating_pattern_provider/base",
+    "particle": "ae2cs:block/extended_resonating_pattern_provider/back",
+    "back": "ae2cs:block/extended_resonating_pattern_provider/back"
+  }
+}

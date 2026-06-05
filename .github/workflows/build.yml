@@ -79,9 +79,10 @@ jobs:
         with:
           tag_name: ${{ steps.version.outputs.next_version }}
           name: AE-UI Multi-module ${{ steps.version.outputs.next_version }}
-          make_latest: true
+          make_latest: false
           body: |
             ## What's Changed
+            
             * Auto-generated release from merged PR #${{ github.event.pull_request.number }}.
           files: |
             build/*.zip

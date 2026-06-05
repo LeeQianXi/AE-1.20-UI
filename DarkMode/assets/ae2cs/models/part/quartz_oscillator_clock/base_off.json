@@ -1,0 +1,7 @@
+{
+  "parent": "ae2:part/interface_base",
+  "textures": {
+    "front": "ae2cs:block/quartz_oscillator_clock/off/part/front",
+    "back": "ae2cs:block/quartz_oscillator_clock/off/part/back"
+  }
+}

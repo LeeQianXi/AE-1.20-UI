@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "active=false,facing=east,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/off_form"
+    },
+    "active=false,facing=east,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=false,facing=north,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/off_form"
+    },
+    "active=false,facing=north,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=false,facing=south,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/off_form"
+    },
+    "active=false,facing=south,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=false,facing=west,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/off_form"
+    },
+    "active=false,facing=west,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=true,facing=east,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/on_form"
+    },
+    "active=true,facing=east,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=true,facing=north,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/on_form"
+    },
+    "active=true,facing=north,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=true,facing=south,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/on_form"
+    },
+    "active=true,facing=south,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    },
+    "active=true,facing=west,half=lower": {
+      "model": "ae2cs:block/me_ender_emitter/on_form"
+    },
+    "active=true,facing=west,half=upper": {
+      "model": "ae2cs:block/me_ender_emitter/upper"
+    }
+  }
+}
